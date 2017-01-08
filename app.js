@@ -22,7 +22,7 @@ function main(){
 	 
 }
 
-$('button').click(function(){
+	$('button').click(function(){
           	// recuperer le nom de l'animal dans l'attribut du bouton                                                                                                                
             var nomAnimal = $(this).attr('data-animal');
             //console.log('nom animal recupere : ' + nomAnimal);
